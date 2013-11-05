@@ -32,7 +32,7 @@ $rcmail_config['converse_xmpp_username']= function($args) {
 	return $args['user'];
 	# if using kolab use the 3d line below instead of the one above,
 	# make sure the kolab_auth plugin is loaded earlier than converse
-	# this is dedined by theri position in RC main.inc.conf
+	# this is defined by their position in RC main.inc.conf
 	# return $_SESSION['kolab_uid'];
 	# return preg_replace('/@.*$/', '', $args['user']);
 };
